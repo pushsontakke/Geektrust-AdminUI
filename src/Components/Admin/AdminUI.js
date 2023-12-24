@@ -127,7 +127,7 @@ const AdminUI = () => {
                 className={Styles.input}
                 name="checkbox"
                 type="checkbox"
-                defaultChecked={selectAllMember}
+                checked={selectAllMember}
                 onClick={selectAll}
               />
             </th>

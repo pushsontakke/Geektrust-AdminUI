@@ -41,7 +41,7 @@ const Table = ({
           className={Styles.input}
           name="checkbox"
           type="checkbox"
-          defaultChecked={checked}
+          checked={checked}
           onClick={selectMember}
         />
       </td>
