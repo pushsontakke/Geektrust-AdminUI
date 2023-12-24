@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
 .App {
-  text-align: center;
-  background: ivory;
-  margin: 0 10rem; 
+    font-family: 'Poppins', sans-serif;
 }
+
+table,
+thead {
+    font-weight: 300;
+}
+
+table>thead>tr {
+    font-size: 18px;
+}
+
+.DeleteButtonIcon {
+    width: 22px;
+    margin-left: 17px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.EditButtonIcon {
+    width: 20px;
+    margin-right: 17px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
